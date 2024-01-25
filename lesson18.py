@@ -50,3 +50,11 @@ print(friends_list)
 
 # ›['Eric', 'John', 'Michael', 'Terry', 'Graham', 'TerryG', 'Brian']
 # ›['Exercise: fill me with names']
+
+
+
+csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+friends_list = (','.join(','.join(csv.split(';')).split(':'))).split(',')
+print(friends_list)
+
+#›['Eric', 'John', 'Michael', 'Terry', 'Graham', 'TerryG', 'Brian']
