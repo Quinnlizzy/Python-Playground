@@ -4,3 +4,10 @@ def greeting():
 greeting()
 
 #Hello Friend!
+
+def greeting(name):
+    print("Hello " + name + "!")
+    
+greeting("Brian")
+
+#Hello Brian!
