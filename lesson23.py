@@ -11,3 +11,11 @@ def greeting(name):
 greeting("Brian")
 
 #Hello Brian!
+
+
+def greeting(name,age):
+    print("Hello " + name + ", you are " + age + "!")
+    
+greeting("Brian","32")
+
+#Hello Brian, you are 32!
